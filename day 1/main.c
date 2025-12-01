@@ -25,7 +25,7 @@ char *read_file(const char *file_name) {
 }
 
 int main(void) {
-    char *text = read_file("/home/eron/Documents/Programming/C/Advent-of-Code-2025/day 1/input.txt");
+    char *text = read_file("input.txt");
 
     uint32_t result_part_1 = 0;
     uint32_t result_part_2 = 0;
