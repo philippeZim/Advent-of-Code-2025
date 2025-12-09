@@ -51,7 +51,7 @@ uint32_t index_of_el(uint64_t el) {
 
 
 int main(void) {
-    char *text = read_file("/home/eron/Documents/Programming/C/Advent-of-Code-2025/day 2/input.txt");
+    char *text = read_file("input.txt");
     size_t i = 0;
     uint64_t a = 0;
     uint64_t b = 0;
